@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../practica2_fiables.srcs/sources_1/new/divisor.vhd" \
+"../../../../practica2_fiables.srcs/sim_1/new/tb_divisor.vhd" \
+
+# Do not sort compile order
+nosort
